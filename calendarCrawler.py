@@ -29,5 +29,5 @@ class CalendarCrawler(Crawler):
 			print 
 
 if __name__ == "__main__":
-	crawler = CalenderCrawler("")
+	crawler = CalendarCrawler("")
 	crawler.crawl("http://illinois.edu/calendar/list/7")
